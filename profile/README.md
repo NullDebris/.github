@@ -11,14 +11,13 @@
 [Lineage 23.0 - Kernel 6.1](https://github.com/NullDebris/manifest/blob/main/asteroids-6.1-lineage-23.0.xml)
 
 # Status
-### Lineage 23.1 (Android 16, QPR1)
-- Faulty RIL+IMS (mobile data may not connect)
+## Kernel 6.1 (android14-6.1) 
+- has broken IMS and may cause mobile data connectivity issues
 
-### Lineage 23.0 (Android 16, QPR0)
-- Working, currently stable 
-
-
-Kernel 6.1 (android14-6.1) will be treated as stable, Kernel 6.6 (android15-6.6) **should be considered as experimental.** Panics and other forms of instability may occur if you choose to use these.
+## Kernel 6.6 (android15-6.6) 
+- **should be considered as experimental.** 
+- Panics and other forms of instability may occur if you choose to use this
+> To avoid the need to ship a fastboot build or a full set of initial install images (boot, recovery, dtbo, vendor_boot, init_boot, vendor_dlkm, system_dlkm), build a recovery image with 6.1 trees, then provide that to users coming from the stock firmware. (NOS/Nothing OS)
 
 #### Credits
 [Alex Koskovich](https://github.com/AKoskovich) - Initial Device/Kernel/Vendor Trees
