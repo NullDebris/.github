@@ -12,11 +12,10 @@
 
 # Status
 ## Kernel 6.1 (android14-6.1) 
-- has broken IMS and may cause mobile data connectivity issues
+- has broken IMS and will cause mobile data connectivity issues
 
 ## Kernel 6.6 (android15-6.6) 
-- **should be considered as experimental.** 
-- Panics and other forms of instability may occur if you choose to use this
+- Condsidered stable for now (Dec 25, 2025)
 > To avoid the need to ship a fastboot build or a full set of initial install images (boot, recovery, dtbo, vendor_boot, init_boot, vendor_dlkm, system_dlkm), build a recovery image with 6.1 trees, then provide that to users coming from the stock firmware. (NOS/Nothing OS)
 
 #### Credits
