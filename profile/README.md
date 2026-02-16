@@ -17,8 +17,11 @@
 - has broken IMS / half-dead modem and will cause mobile data connectivity issues
 
 ## Kernel 6.6 (android15-6.6) 
-~~- Considered stable for now (Dec 25, 2025)~~
-- Will quite often get stuck when booting for the first time or rebooting. This is due to the secure side of the device (securemsm) not properly responding/being handled for some reason
+- **Considered stable (Feb 15, 2026)**
+
+
+~~-Will quite often get stuck when booting for the first time or rebooting. This is due to the secure side of the device (securemsm) not properly responding/being handled for some reason~~ 
+Fixed with [this commit.](https://github.com/Nulldebris/android_kernel_nothing_sm7635-devicetrees/commit/6e99397de1757e8efd68bf4d508b07ee203c6cec)
 
 
 > To avoid the need to ship a fastboot build or a full set of initial install images (boot, recovery, dtbo, vendor_boot, init_boot, vendor_dlkm, system_dlkm), build a recovery image with 6.1 trees, then provide that to users coming from the stock firmware. (NOS/Nothing OS)
