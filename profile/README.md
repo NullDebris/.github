@@ -18,7 +18,7 @@
 
 ## Kernel 6.6 (android15-6.6) 
 
-- Will quite often get stuck when booting for the first time or rebooting. This is due to the secure side of the device (securemsm) not properly responding/being handled for some reason
+- Will quite often get stuck when booting is set or rebooting (after a password is set). This is due to the secure side of the device (securemsm) not properly responding/being handled for some reason
 
 > To avoid the need to ship a fastboot build or a full set of initial install images (boot, recovery, dtbo, vendor_boot, init_boot, vendor_dlkm, system_dlkm), build a recovery image with 6.1 trees, then provide that to users coming from the stock firmware. (NOS/Nothing OS)
 
