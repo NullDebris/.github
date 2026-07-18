@@ -4,6 +4,8 @@
 ## Manifests
 [Lineage 23.2 - Kernel 6.6](https://github.com/NullDebris/manifest/blob/main/asteroids-6.6-lineage-23.2.xml)
 
+### The following manifests track branches that are no longer maintained and are outdated!
+
 [Lineage 23.1 - Kernel 6.6](https://github.com/NullDebris/manifest/blob/main/asteroids-6.6-lineage-23.1.xml)
 
 [Lineage 23.1 - Kernel 6.1](https://github.com/NullDebris/manifest/blob/main/asteroids-6.1-lineage-23.1.xml)
