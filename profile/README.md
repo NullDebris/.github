@@ -2,9 +2,14 @@
 
 
 ## Manifests
-[Lineage 23.2 - Kernel 6.6](https://github.com/NullDebris/manifest/blob/main/asteroids-6.6-lineage-23.2.xml)
+[Lineage 24.0 - Kernel 6.1](https://github.com/NullDebris/manifest/blob/main/asteroids-6.1-lineage-24.0.xml)
+
+[Lineage 24.0 - Kernel 6.6](https://github.com/NullDebris/manifest/blob/main/asteroids-6.6-lineage-24.0.xml)
+> Note: Dolby support is no longer included with lineage-24.0 branches!
+
 
 ### The following manifests track branches that are no longer maintained and are outdated!
+[Lineage 23.2 - Kernel 6.6](https://github.com/NullDebris/manifest/blob/main/asteroids-6.6-lineage-23.2.xml)
 
 [Lineage 23.1 - Kernel 6.6](https://github.com/NullDebris/manifest/blob/main/asteroids-6.6-lineage-23.1.xml)
 
@@ -16,7 +21,8 @@
 
 # Status
 ## Kernel 6.1 (android14-6.1) 
-- has broken IMS / half-dead modem and will cause mobile data connectivity issues
+~~- has broken IMS / half-dead modem and will cause mobile data connectivity issues~~
+- **This has been fixed and is now the recommended kernel to use**
 
 ## Kernel 6.6 (android15-6.6) 
 
